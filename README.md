@@ -3,6 +3,7 @@
 ## Project setup
 ```
 npm install
+文件里面附带Api文件
 ```
 
 ### Compiles and hot-reloads for development
