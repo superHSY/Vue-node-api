@@ -1,0 +1,28 @@
+{
+  "root": true,
+  "env": {
+    "node": true
+  },
+  "extends": [
+    "plugin:vue/essential",
+    "eslint:recommended"
+  ],
+  "rules": {
+    "no-console": 1,
+    "quotes": [
+      0,
+      "single"
+    ],
+    "semi": [
+      0,
+      "never"
+    ],
+    "space-before-blocks": "error",
+    "space-unary-ops": "error",
+    "no-unused-vars": "warn",
+    "no-extra-boolean-cast": "off"
+  },
+  "parserOptions": {
+    "parser": "babel-eslint"
+  }
+}

@@ -1,0 +1,43 @@
+{
+    "workbench.colorTheme": "Monokai",
+    "editor.fontSize": 14,
+    "editor.wordWrap": "on",
+    "editor.tabSize": 2,
+    "files.autoSave": "afterDelay",
+    "editor.formatOnPaste": true,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "workbench.statusBar.visible": true,
+    "window.zoomLevel": 0,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "breadcrumbs.enabled": true,
+    "terminal.integrated.fontSize": 16,
+    "editor.detectIndentation": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.statusBar.feedback.visible":false,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.snippetSuggestions": "top",
+    "window.menuBarVisibility": "toggle",
+    "emmet.triggerExpansionOnTab": true,
+    "editor.renderWhitespace": "all",
+    "editor.renderControlCharacters": false,
+    "problems.decorations.enabled": false,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features",
+        "editor.codeActionsOnSave": {
+          "source.fixAll.eslint": false
+        }
+    },
+    "fileheader.Author": "JiaoShouf2e",
+    "fileheader.LastModifiedBy": "JiaoShouf2e",
+    "css.validate": false,
+    "less.validate": false,
+    "scss.validate": false,
+    "stylelint.enable": false,
+    "eslint.enable": true,
+    "eslint.run": "onSave",
+    "eslint.debug": true,
+    "editor.codeActionsOnSave":{
+      "source.fixAll.eslint": true
+    }
+}

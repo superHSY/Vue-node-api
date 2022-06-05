@@ -1,0 +1,198 @@
+  .bgwrap {
+    margin: auto;
+    padding: 0 20px 0 20px;
+    width: 1200px;
+    background: url("../assets/index.jpg") no-repeat;
+    background-size: 100% 100%;
+    /* min-width: 100rem; */
+  }
+  .de-title {
+    top: 74px;
+    left: 300px;
+    position: absolute;
+    display: flex;
+    width: 600px;
+    margin-top: 20px;
+    /* justify-content: space-between; */
+  }
+  .tip {
+    margin-top: 10px;
+    width: 100%;
+    height: 120px;
+  }
+  .t1 {
+    padding: 5px 30px;
+    display: flex;
+    align-items: center;
+    /* color: black; */
+    color: #FFFFFF;
+    background: RGBA(193, 155, 172, 1);
+    border-radius: 4px 4px 0px 0px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .t1:hover {
+    color: black;
+    background: #FFFFFF;
+  }
+  .t1:hover .t1-logo {
+    background: url(../imgs/eat1.svg);
+    background-size: 26px 26px;
+  }
+  .de-tip {
+    position: relative;
+  }
+  .t1-logo {
+    background: url(../imgs/eat.svg) ;
+    background-size: 26px 26px;
+    height: 26px;
+    width: 26px;
+  }
+  .person {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    padding: 20px;;
+    border-bottom: 1px solid #E6E6E6;
+  }
+  .person-mian {
+    width: 150px;
+    font-size: 14px;
+    font-weight: 600;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  .person-mian:hover {  
+  color: #F96033;
+  text-decoration: underline;
+  }
+  .title-tips {
+    padding: 30px 0;
+    font-size: 30px;
+    font-weight: 600;
+    color: #F96033;
+  }
+  .title-tip {
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: #1D1E22;
+  }
+  .title-tip button {
+    font-size: 14px;
+    font-weight: 400;
+    color: #2878FF;
+    padding: 8px 16px;
+    background: #EAF2FF;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: background 1s;
+  }
+  .title-tip button:hover {
+    /* color: black; */
+    transition: background 1s;
+    background: #FFFFFF;
+  }
+  .box-item {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    width: 360px;
+    height: 284px;
+    background: #FFFFFF;
+    border: 1px solid #F0F0F0;
+    margin-top: 20px;
+    padding: 10px 20px;
+  }
+  .box-item:hover {
+    box-shadow: 0px 2px 6px 0px rgba(153, 153, 153, 0.2);
+  }
+  .box-item:hover .item-pro {
+    display: block;
+  }
+  .box {
+    width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .Box {
+    display: flex;
+    justify-content: center;
+  }
+  .item-tip {
+    position: absolute;
+    left: 0;
+    padding: 4px 10px;
+    background: #F96033;
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFF;
+    cursor: pointer;
+  }
+  .item-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #E6E6E6;
+  }
+  .item-content-right {
+    width: 140px;
+  }
+  .item-content-right h1 {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .item-preson {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+  }
+  .item-preson span{
+    font-size: 14px;
+    font-weight: 600;
+    color: #1D1E22;
+  }
+  .item-pro {
+    position: absolute;
+    right: 10px;
+    display: none;
+  }
+  h2 {
+    font-size: 16px;
+  }
+  .getMethod {
+    height: 35px;
+  }
+  .getMethod button {
+    float: right;
+    margin-top: 10px
+  }
+  .advice {
+    display: flex;
+    justify-content: space-around;
+  }
+  .advice h6 {
+    font-size: 20px;
+    color: #F96033;
+  }
+  .advice_rate div {
+    margin-top: 14px;
+  }
+  .advice_rate span {
+    margin-right: 6px;
+  }
+  .ant-btn-primary{
+    margin-top: 20px;
+    margin-left: 60px;
+  }

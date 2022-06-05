@@ -1,0 +1,153 @@
+  .bgwrap {
+    margin: auto;
+    padding: 0 20px 0 20px;
+    width: 1200px;
+    background: url("../assets/index.jpg") no-repeat;
+    background-size: 100% 100%;
+    /* min-width: 100rem; */
+  }
+  .left100 {
+    width: 100%;
+  }
+  .health-tip {
+    display: flex;
+    width: 990px;
+    height: 280px;
+    background: url(../assets/healthbc.jpg);
+    background-size: 100% 100%;
+  }
+  .health-title {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .left100 {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+  }
+  .left100 span {
+    font-size: 20px;
+    width: 120px;
+    margin-right: 10px;
+  }
+  .tip-left {
+    height: 100%;
+    width: 24%;
+    background: rgba(68,68,68,.4);
+    padding: 20px 20px 20px 20px;
+  }
+  .tip-item {
+    font-size: 20px;
+    width: 220px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    color: #fff;
+    cursor: pointer;
+  }
+  .tip-item:hover {
+    color: #ff6767;
+  }
+  .tip-none {
+    height: 100%;
+    width: 400px;
+    background: #fff;
+    padding: 10px 20px 20px 20px;
+  }
+  .tip-size {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  .health-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1580px;
+    border-bottom: 1px solid #ff6767;
+  }
+  .title {
+    display: inline-block;
+    padding-bottom: 6px;
+    font-size: 22px;
+    color: #ff6767;
+    width: 100%;
+    border-bottom: 1px solid #ff6767;
+  }
+  .content-item {
+    margin-top: 30px;
+    width: 500px;
+    margin-right: 50px;
+  }
+  .content-item span{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  .content-item div {
+    font-size: 14px;
+    line-height: 30px;
+    text-indent: 30px;
+  }
+  .box {
+    display: flex;
+    justify-content: center;
+  }
+  .health-content button {
+    margin-top: 20px;
+    padding: 10px 80px;
+    background: linear-gradient(270deg, #E44245 0%, #FE993C 100%);
+    border-radius: 2px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  .health-content button:hover {
+    background: linear-gradient(270deg, #F8474A 0%, #FFAA5B 100%);
+  }
+  .content {
+    display: flex;
+    justify-content: center;
+  }
+  .content-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1580px;
+    padding-top: 20px;
+  }
+  .w100 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+  }
+  .w200 {
+    width: 300px;
+    margin-left: 20px;
+  }
+  .w200 div {
+    font-size: 14px;
+    line-height: 26px;
+  }
+  .w200 span {
+    display: inline-block;
+    font-size: 12px;
+    margin-bottom: 8px;
+  }
+  .w200 h2:hover {
+    color: #F8474A;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  .content_show {
+    display: inline-block;
+    width: 300px;
+  }
+  ::v-deep .ant-table-pagination {
+    display: none;
+  }
+  

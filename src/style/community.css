@@ -1,0 +1,58 @@
+.bgwrap {
+  margin: auto;
+  padding: 0 20px 0 20px;
+  width: 1200px;
+  background: url("../assets/index.jpg") no-repeat;
+  background-size: 100% 100%;
+  /* min-width: 100rem; */
+  }
+  .com-content {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .com-body {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .com-item {
+    display: flex;
+    margin-top: 10px 0 0 10px;
+
+  }
+  .com-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-between; */
+  }
+  .item-content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1290px;
+  }
+  .com-title h1 {
+    font-size: 20px;
+  }
+  .com-body h2 {
+    font-size: 24px;
+  }
+  .commit_commit {
+    /* overflow: hidden; */
+    overflow-y:scroll;
+    height: 400px;
+    margin-bottom: 20px;
+  }
+  .commit_box {
+    margin-bottom: 20px;
+  }
+  ::v-deep .ant-card-meta-description {
+    overflow: hidden;
+    text-overflow:ellipsis;
+    height: 60px;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+  }

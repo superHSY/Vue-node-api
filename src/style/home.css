@@ -1,0 +1,667 @@
+.bgwrap {
+    margin: auto;
+    padding: 0 20px 0 20px;
+    width: 1200px;
+    background: url("../assets/index.jpg") no-repeat;
+    background-size: 100% 100%;
+    /* min-width: 100rem; */
+  }
+  .content {
+    display: flex;
+    justify-content: center;
+    /* background-image: url(../assets/kuai.png);
+    background-size: 30% 50%; */
+  }
+  .tip-img {
+    width: 200px;
+    border-radius: 0 0 50% 50%;
+    transition: border-radius 1s;
+  }
+  .tip-img:hover {
+    transition: border-radius 1s;
+    border-radius: 0;
+  }
+  .introduce {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  .introduce-box {
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: -150px;
+    padding: 0px 20px 0 20px;
+    box-shadow: 0 0 10px 3px rgb(0 0 0 / 20%);
+    width: 700px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: #ffffff;
+  }
+  .box-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    width: 320px;
+    /* margin-left: 10px; */
+  }
+  .box-item-pt {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .video {
+    display: flex;
+    align-items: center;
+  }
+  .video-body {
+    padding: 40px 0 0 40px;
+  }
+  .video img {
+    cursor: pointer;
+  }
+  .video-title .tip1 {
+    font-weight: bold;
+    color: #000;
+    font-size: 30px;
+    font-family: siyuan;
+  }
+  .video-title .tip2 {
+    font-size: 19px;
+    font-family: siyuan;
+    text-transform: uppercase;
+    color: #cfcfcf;
+    margin-left: 15px;
+  }
+  .video-content {
+    margin-top: 10px;
+    color: #333;
+    font-size: 16px;
+    line-height: 50px;
+  }
+  .video-btn {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .video-btn button {
+    padding: 10px 40px;
+    background: linear-gradient(90deg, #f2d8aa 0%, #e5ba6f 100%);
+    border-radius: 2px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #764e19;
+    cursor: pointer;
+  }
+  .video-btn button:hover {
+    background: linear-gradient(90deg, #FDE5BB 0%, #F7C876 100%);
+  }
+  .showfd {
+    margin-top: 40px;
+    background: #f5f5f5 url(../assets/kuaizi.png) no-repeat left bottom;
+    padding-bottom: 65px;
+    height: 600px;
+  }
+  .title {
+    position: relative;
+    padding: 55px 0 0px 10px;
+  }
+  .title2 .p2 {
+    float: none;
+    text-align: center;
+    position: relative;
+    z-index: 3;
+    font-weight: bold;
+  }
+  .title .p2 {
+    color: #222;
+    font-size: 40px;
+    font-family: "siyuan";
+    line-height: 0;
+  }
+  p {
+    line-height: 170%;
+    color: #555;
+    font-size: 14px;
+  }
+  .title .p1 {
+    line-height: 0;
+    float: left;
+    font-size: 30px;
+    color: #e4e4e4;
+    font-family: "siyuan";
+  }
+  .title2 .p1 {
+    float: none;
+    text-align: center;
+  }
+  .showfd-btn {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .showfd-btn button {
+    padding: 10px 60px;
+    background: linear-gradient(270deg, #E44245 0%, #FE993C 100%);
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    cursor: pointer;
+  }
+  .showfd-btn button:hover {
+    background: linear-gradient(270deg, #F8474A 0%, #FFAA5B 100%);
+  }
+  .w1200 {
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    margin: 40px auto;
+    margin-bottom: 0px;
+  }
+  .w1200 .p1 {
+    float: left;
+    width: 24px;
+    font-size: 20px;
+    line-height: 1;
+    font-family: "siyuan";
+    color: #000;
+    padding-top: 10px;
+    padding-right: 10px;
+  }
+  .w1200 .p2 {
+    float: left;
+    font-size: 50px;
+    font-family: "siyuan";
+    color: #000;
+    line-height: 1;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+  .w1200 .p2 span {
+    color: #D2AD68;
+  }
+  .methods {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .methods-btn1 {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 75px;
+    background: #c0a16b;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .methods-btn2 {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 75px;
+    background: #222;
+    padding: 10px 15px;
+    border-radius: 4px;
+    color: #ffffff;
+    margin-left: 80px;
+    cursor: pointer;
+  }
+  .methods-btn2:hover {
+    box-shadow: 0px 2px 10px 0px rgba(153, 153, 153, 0.3);
+  }
+  .methods-btn1:hover {
+    box-shadow: 0px 2px 10px 0px rgba(153, 153, 153, 0.3);
+  }
+  .methods-btn1 img {
+    margin-right: 15px;
+  }
+  .methods-btn2 img {
+    margin-right: 15px;
+  }
+  .b1200 {
+    display: flex;
+    justify-content: center;
+  }
+  .methods-btn1 .p1 {
+    font-family: 'siyuan';
+    color: #fff;
+    font-size: 16px;
+  }
+  .f1200 {
+    padding: 0 140px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .f1 {
+    position: relative;
+    width: 200px;
+    height: 280px;
+    margin-bottom: 20px;
+  }
+  .f2 {
+    position: relative;
+    width: 400px;
+    height: 280px;
+  }
+  .f2 img {
+    position: absolute;
+    width: 100%;
+    height: 280px;
+  }
+  .f2:hover .eva {
+    transition: height 2s;
+    height: 280px;
+  }
+  .f1:hover .eva {
+    transition: height 2s;
+    height: 100%;
+  }
+  .f1 img {
+    position: absolute;
+    width: 100%;
+    height: 280px;
+  }
+  .eva {
+    position: absolute;
+    background: transparent;
+    font-size: 26px;
+    color: #c0a16b;
+    background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: height 2s;
+    cursor: pointer;
+  }
+  .pro {
+    width: 100%;
+    margin-top: 20px;
+    background-color: #efedee;
+    padding: 40px 0;
+    padding-bottom: 0px;
+    display: flex;
+    justify-content: center;
+  }
+  .pro-content {
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .pro-content h2 {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .pro-content h3 {
+    font-size: 20px;
+  }
+  .pro-content button {
+    margin-top: 10px;
+    font-size: 16px;
+    background-color: #E98C81;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: 600;
+    transition: background-color 0.5s;
+    cursor: pointer;
+  }
+  .pro-content button:hover {
+    transition: background-color 0.5s;
+    background-color: #c21e1e;
+  }
+  .foot {
+    /* margin-top: 60px; */
+    padding-top: 50px;
+    padding-left: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #efedee; */
+  }
+  .foot-title {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .foot-title img {
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  .foot-content {
+    margin-top: 25px;
+  }
+  .foot-content p{
+    font-size: 20px;
+  }
+  .foot-ft {
+    margin-top: 40px;
+  }
+  .foot-ft img {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+  }
+  .ingredients {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: 600;
+    margin-top: 20px;
+    color: #222;
+    font-size: 40px;
+    font-family: "siyuan";
+  }
+  .choose {
+    font-size: 30px;
+  }
+  .in-pic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* height: 226px; */
+    overflow: hidden;
+    background: #ffffff;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  .in-pic span {
+    font-size: 16px;
+    font-weight: 400;
+    color: #999;
+  }
+  .in-pic p {
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+  .in-content {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #e8e8e8;
+    justify-content: space-between;
+    background: #ffffff;
+    padding: 40px;
+    /* background: #ffffff; */
+  }
+  .in-content button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+    background: linear-gradient(270deg, #E44245 0%, #FE993C 100%);
+    color: #ffffff;
+    font-weight: 600;
+  }
+  .in-content button:hover {
+    background: linear-gradient(270deg, #F8474A 0%, #FFAA5B 100%);
+  }
+  .in-tit {
+    color: #D2AD68;
+    margin-left: 20px;
+  }
+  .health {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    width: 100%;
+  }
+  .health-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1160px;
+  }
+  .health-title div {
+    font-size: 40px;
+    color: black;
+    font-weight: 600;
+  }
+  .health-title span {
+    font-size: 20px;
+    color: #D2AD68;
+  }
+  .health-title button {
+    padding: 10px 20px;
+    background: linear-gradient(270deg, #E44245 0%, #FE993C 100%);
+    color: #ffffff;
+    font-weight: 600;
+
+  }
+  .health-title button:hover {
+    cursor: pointer;
+    background: linear-gradient(270deg, #F8474A 0%, #FFAA5B 100%);
+  }
+  .health-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .co-box {
+    padding: 18px;
+    border-radius: 2px;
+    border: 4px solid #E6E6E6;
+    width: 32%;
+    margin-top: 10px;
+  }
+  .co-box:hover {
+    box-shadow: 0px 4px 10px 0px rgba(153, 153, 153, 0.2);
+  }
+  .co-box p {
+    font-size: 20px;
+    color: #212121;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+  .co-box h3 {
+    font-size: 16px;
+    text-indent: 2em;
+    line-height: 30px;
+  }
+  .co-ft {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .co-ft span {
+    margin-right: 20px;
+    font-size: 18px;
+    color: #FE993C ;
+  }
+  .community {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    flex-direction: column;
+    background: #f5f5f5;
+  }
+  .community h1 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  .community h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #D2AD68;
+  }
+  .com-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .com-content {
+    display: flex;
+    margin-top: 40px;
+  }
+  .com-con-body {
+    height: 500px;
+    overflow: hidden;
+    overflow-y: scroll;
+  }
+  /*定义滚动条轨道 内阴影+圆角*/
+  .com-con-body::-webkit-scrollbar {
+  width: 10px;
+  }
+  .com-con-body::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    background: rgba(0,0,0,0.2);
+  }
+  .com-con-body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    background: rgba(0,0,0,0.1);
+  }
+  .com-h100 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  .com-h100 img {
+    margin-right: 20px;
+  }
+  .com-h100 nav {
+    font-size: 16px;
+    color: #111;
+  }
+  .com-body {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .com-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .com-box button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: linear-gradient(270deg, #E44245 0%, #FE993C 100%);
+    color: #ffffff;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .com-box button:hover {
+    background: linear-gradient(270deg, #F8474A 0%, #FFAA5B 100%);
+  }
+  .pop-up::v-deep .ant-modal-footer {
+    display: none;
+  }
+  .pop-up::v-deep .ant-modal-content {
+    background: url(../assets/kuai.png);
+    top: 10%;
+  }
+  .geng {
+    margin-top: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+  }
+  .store_hd {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .store_hd p {
+    font-size: 20px;
+    color: #c0a16b;
+    line-height: 34px;
+  }
+  .store_hd h3 {
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #222;
+    cursor: pointer;
+    transition: color 1.5s;
+  }
+  .store_hd h3:hover {
+    color: #c0a16b;
+    transition: color 1.5s;
+  }
+  .pop-up div {
+    padding: 20px;
+    line-height: 40px;
+    font-size: 14px;
+    text-indent:2rem;
+    background: #fff;
+  }
+  .pop-up::v-deep .ant-modal-title{
+    color: #764e19;
+    font-weight: 600;
+  }
+  ::v-deep .ant-modal-footer {
+    display: none;
+  }
+  ::v-deep .ant-modal-content {
+    width: 720px;
+    left: -25%;
+    top: -80px;
+  }
+  .join ::v-deep .ant-modal-content {
+    padding: 10px 20px;
+    width: 720px;
+    left: -25%;
+    top: 80px;
+  }
+  .example {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding: 30px 50px;
+    margin: 20px 0;
+  }
+  .join_box {
+    display: flex;
+    justify-content: space-between;
+  }
+  h6 {
+    font-size: 16px;
+  }
+  .show_food ::v-deep .ant-modal-title{
+    font-size: 16px;
+    font-weight: 600;
+    color: #c0a16b;
+  }
+  .show_food ::v-deep .ant-modal-content {
+    width: 500px;
+    left: 20px;
+  }
+  .show_Food_p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  } 
+  .show_Food_content {
+    text-indent:2rem;
+    line-height: 26px;
+    font-size: 16px;
+  }
+  .evaluate span {
+    margin-right: 10px;
+  }
